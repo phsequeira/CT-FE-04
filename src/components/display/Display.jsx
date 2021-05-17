@@ -5,7 +5,7 @@ import ReactJson from 'react-json-view';
 
 const Display = ({ response }) => (
   <>
-    <pre className={styles.Display}>
+    <pre aria-label='results'className={styles.Display}>
       <ReactJson src={response} displayDataTypes={false} theme='colors' />
     </pre>
   </>
